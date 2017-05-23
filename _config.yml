@@ -1,0 +1,31 @@
+title: Dinner Ladies Ltd
+email: info@dinnerladiesltd.com
+description: Dinner Ladies Ltd are Great
+baseurl: ''
+url: 'http://dinnerladiesltd.com'
+meta_author: Tom Hamilton Stubber
+
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: pretty
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include:
+  - _redirects
+footer:
+  copyright: Dinner Ladies Ltd
+address:
+  - 123 Fake Street
+  - Not sure, London
+social:
+  - title: twitter
+    url: http://twitter.com/tutorcruncher
+  - title: facebook
+    url: http://facebook.com/tutorcruncher
+  - title: github
+    url: http://github.com/tutorcruncher
